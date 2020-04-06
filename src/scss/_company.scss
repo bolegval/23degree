@@ -1,0 +1,12 @@
+.company {
+  padding: 57px 0 65px;
+  background-color: $second-bg-color;
+
+  & h2 {
+    margin-bottom: 30px;
+  }
+
+  &__underline {
+    margin-bottom: 45px;
+  }
+}

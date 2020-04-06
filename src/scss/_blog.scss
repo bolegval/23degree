@@ -1,0 +1,39 @@
+.blog {
+  background-color: $second-bg-color;
+  padding: 53px 0 69px;
+
+  & h2 {
+    margin-bottom: 30px;
+  }
+
+  &__underline {
+    margin-bottom: 34px;
+  }
+
+  &__theme {
+    display: flex;
+  }
+
+  &__item {
+    &:first-of-type {
+      margin-right: 30px;
+    }
+  }
+
+  &__image {
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 34px;
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 18px;
+    color: $border-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

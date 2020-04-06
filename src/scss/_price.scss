@@ -1,0 +1,110 @@
+.price {
+  padding: 63px 15px 67px;
+  background: url("../../img/price-bg.png") center/cover no-repeat, #7b7b7b;
+  background-blend-mode: multiply;
+  color: #ffffff;
+
+  & h2 {
+    color: $primary-bg-color;
+    margin-bottom: 29px;
+  }
+
+  &__underline {
+    background-color: $primary-bg-color;
+    margin-bottom: 25px;
+  }
+
+  &__desc {
+    color: $primary-bg-color;
+    font-size: 26px;
+    margin-bottom: 42px;
+  }
+
+  &__calc {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+  }
+
+  &__data {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    & div {
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+      padding: 23px;
+    }
+  }
+
+  &__num {
+    margin-bottom: 8px;
+
+    & p {
+      margin-bottom: 26px;
+    }
+  }
+
+  &__package {
+    & p {
+      margin-bottom: 23px;
+    }
+  }
+
+  &__btn {
+    width: 191px;
+    padding: 16px 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: $roboto;
+    font-size: 16px;
+    color: #fff;
+
+    &:not(:last-of-type) {
+      margin-right: 15px;
+    }
+  }
+}
+
+.sum {
+  display: flex;
+  flex-direction: column;
+  font-family: $roboto;
+
+  & span {
+    font-size: 32px;
+    margin-bottom: 25px;
+
+    &:last-of-type {
+      margin-bottom: 34px;
+    }
+
+    & a {
+      font-family: $roboto-medium;
+      font-size: 18px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 17px;
+  }
+
+  &__btn {
+    width: 309px;
+    height: 51px;
+    font-family: $roboto;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background-color: #19b5fe;
+    margin-bottom: 25px;
+  }
+
+  &__desc {
+    font-size: 14px;
+    margin-bottom: 11px;
+  }
+}

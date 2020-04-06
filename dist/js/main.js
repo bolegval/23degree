@@ -1,0 +1,1 @@
+"use strict";ymaps.ready(function(){var a=new ymaps.Map("map",{center:[43.23837575260569,76.94457614274866],zoom:13}),e=new ymaps.Placemark([43.23837575260569,76.94457614274866]);a.geoObjects.add(e)});

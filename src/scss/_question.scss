@@ -1,0 +1,100 @@
+.question {
+  padding: 57px 0 67px;
+  background: url("../../img/bg-question.png") center/cover no-repeat, #6a6a6a;
+  background-blend-mode: multiply;
+
+  & h2 {
+    color: $primary-bg-color;
+  }
+
+  & h4 {
+    color: $primary-bg-color;
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+
+  &__underline {
+    background-color: $primary-bg-color;
+    margin: 30px auto;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.7;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+
+  &__input {
+    width: 32%;
+    padding: 20px;
+    @include form-input;
+  }
+
+  &__textarea {
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    resize: none;
+    @include form-input;
+  }
+
+  &__submit {
+    margin: 0 auto;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: $primary-bg-color;
+  }
+
+  &__list {
+    margin-bottom: 35px;
+  }
+
+  &__item {
+    font-family: $roboto-medium;
+    font-size: 18px;
+    &:not(:last-of-type) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+
+    &--phone::before {
+      @include list-icon;
+      background: url("../../img/phone.png") center no-repeat;
+    }
+
+    &--whatsapp::before {
+      @include list-icon;
+      background: url("../../img/Whatsapp-logo.png") center no-repeat;
+    }
+
+    &--mail::before {
+      @include list-icon;
+      background: url("../../img/mail-logo.png") center no-repeat;
+    }
+
+    &--skype::before {
+      @include list-icon;
+      background: url("../../img/skype-logo.png") center no-repeat;
+    }
+
+    &--telegram::before {
+      @include list-icon;
+      background: url("../../img/telegram-logo.png") center no-repeat;
+    }
+  }
+}

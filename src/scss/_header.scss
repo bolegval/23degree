@@ -1,0 +1,117 @@
+.header {
+  background: url("../../img/header-bg.png") center/cover no-repeat, #6a6a6a;
+  background-blend-mode: multiply;
+  padding: 34px 0 55px;
+  color: #ffffff;
+  text-align: center;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 74px;
+  }
+
+  &__logo {
+    display: inline-block;
+    align-self: center;
+    font-family: $roboto-black;
+    font-size: 28px;
+    background: url("../../img/logo.png") center left/contain no-repeat;
+    padding-left: 40px;
+  }
+
+  &__info {
+    display: flex;
+  }
+
+  &__contacts {
+    background: url("../../img/telephone.png") center left no-repeat;
+    font-family: $roboto-medium;
+    font-size: 21px;
+    padding-left: 33px;
+    margin-right: 64px;
+
+    & span {
+      font-family: $roboto-light;
+      font-size: 12px;
+      display: block;
+    }
+  }
+
+  &__menu {
+    position: relative;
+    width: 46px;
+    height: 41px;
+    border: none;
+    outline: none;
+    background: url("../../img/menu.svg") center top no-repeat;
+    font-family: $roboto-medium;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    & span {
+      position: absolute;
+      left: 11%;
+      bottom: 0;
+    }
+  }
+
+  &__tittle {
+    font-family: $roboto-bold;
+    font-size: 48px;
+  }
+
+  &__desc {
+    font-family: $roboto-bold;
+    font-size: 36px;
+    margin-bottom: 46px;
+  }
+
+  &__text {
+    font-family: $roboto-light;
+    font-size: 22px;
+    margin-bottom: 46px;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 30px;
+    background: url("../../img/mouse.png") center no-repeat;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+
+  &__input {
+    @include form-input;
+    width: 290px;
+    padding: 20px 0 23px 27px;
+    border-radius: 50px;
+    margin-right: 9px;
+    margin-bottom: 23px;
+  }
+
+  &__submit {
+    align-self: center;
+    width: 232px;
+    font-family: $roboto-medium;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #19b5fe;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    padding: 25px 0;
+  }
+
+  &__desc {
+    font-family: $roboto-light;
+    font-size: 14px;
+    margin-bottom: 78px;
+  }
+}

@@ -1,0 +1,17 @@
+.modal-form {
+  display: none;
+  max-width: 550px;
+  margin: 0 auto;
+
+  &__input {
+    border: 1px solid $border-color;
+  }
+
+  &__textarea {
+    border: 1px solid $border-color;
+  }
+
+  &__visible {
+    visibility: hidden;
+  }
+}

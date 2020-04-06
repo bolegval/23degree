@@ -1,0 +1,44 @@
+.portfolio {
+  padding: 52px 0 22px;
+  & h2 {
+    margin-bottom: 32px;
+  }
+
+  &__underline {
+    margin-bottom: 28px;
+  }
+
+  &__nav {
+    display: inline-block;
+    padding: 4px 50px 4px 40px;
+    margin-bottom: 24px;
+    border: 1px solid $border-color;
+    border-radius: 50px;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 16px 34px;
+    color: $border-color;
+    font-size: 14px;
+
+    &:not(:last-of-type) {
+      border-right: 1px solid $border-color;
+    }
+
+    &:hover {
+      color: #ffffff;
+      border-radius: 10px;
+      background-color: $border-color;
+    }
+  }
+
+  &__list {
+    font-size: 0;
+    column-count: 3;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+  }
+}

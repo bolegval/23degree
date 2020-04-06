@@ -1,0 +1,28 @@
+.teamwork {
+  background-color: $primary-bg-color;
+  padding: 74px 0 67px;
+
+  & h2 {
+    margin-bottom: 30px;
+  }
+
+  &__underline {
+    margin-bottom: 30px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__image {
+    display: inline-block;
+    width: 50%;
+  }
+
+  &__desc {
+    display: inline-block;
+    font-size: 30px;
+    width: 50%;
+  }
+}

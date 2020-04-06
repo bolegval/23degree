@@ -1,0 +1,110 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+$border-color: #19b5fe;
+$primary-bg-color: #fff;
+$second-bg-color: #f5f9fa;
+$tittle-color: #363636;
+
+@mixin form-input {
+  background-color: #ffffff;
+  font-family: $roboto-light;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+@mixin list-icon {
+  content: "";
+  display: inline-block;
+  margin-right: 15px;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}
+
+@mixin social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #fff;
+  font-family: $roboto-light;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  color: $tittle-color;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+  color: #19b5fe;
+}
+
+.main {
+  text-align: center;
+}
+
+.underline {
+  width: 377px;
+  height: 1px;
+  background-color: $border-color;
+  margin: 0 auto;
+
+  &--mini {
+    width: 124px;
+    margin-bottom: 27px;
+  }
+}

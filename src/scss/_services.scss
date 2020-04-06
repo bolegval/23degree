@@ -1,0 +1,39 @@
+.services {
+  padding: 63px 0 72px;
+
+  & h2 {
+    margin-bottom: 30px;
+  }
+
+  & div {
+    margin-bottom: 35px;
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    text-align: left;
+    padding: 0 15px;
+    align-self: center;
+
+    & input {
+      padding: 20px 35px;
+      font-size: 14px;
+      font-family: $roboto;
+    }
+  }
+
+  &__text {
+    font-family: $roboto-thin;
+    font-size: 18px;
+    color: #464646;
+    margin: 20px 0 28px;
+  }
+
+  &__image {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,57 @@
+.why-we {
+  padding-top: 52px;
+  background-color: $second-bg-color;
+
+  & h2 {
+    margin-bottom: 30px;
+  }
+
+  &__underline {
+    margin-bottom: 35px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__item {
+    font-family: $roboto-medium;
+    font-size: 14px;
+    display: inline-block;
+    max-width: 265px;
+    margin-bottom: 63px;
+    padding-top: 71px;
+
+    &--prof {
+      background: url("../../img/prof-design.png") center top no-repeat,
+        url("../../img/icon-fon.svg") 60% 0% no-repeat;
+    }
+
+    &--podhod {
+      background: url("../../img/podhod.png") center top no-repeat,
+        url("../../img/icon-fon.svg") 39% 28% no-repeat;
+    }
+
+    &--question {
+      background: url("../../img/question.png") center top no-repeat,
+        url("../../img/icon-fon.svg") 56% 19% no-repeat;
+    }
+
+    &--group {
+      background: url("../../img/group.png") center top no-repeat,
+        url("../../img/icon-fon.svg") 42% 14% no-repeat;
+    }
+
+    &--clock {
+      background: url("../../img/clock.png") center top no-repeat,
+        url("../../img/icon-fon.svg") 39% 0% no-repeat;
+    }
+
+    &--alboum {
+      background: url("../../img/alboum.png") center top no-repeat,
+        url("../../img/icon-fon.svg") 40% 29% no-repeat;
+    }
+  }
+}
